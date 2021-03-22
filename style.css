@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
+/* newsletter */
 #newsletter {
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/contact.jpg);
     background-position: center;
@@ -173,4 +174,13 @@ h1, h2, h3, h4, h5, h6 {
 #newsletter button:hover {
     background: var(--orange);
     color: black;
+}
+
+/* team */
+.carousel-caption {
+    background: var(--orange);
+    bottom: 40px;
+}
+#team .row {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 10%, 100% 90%, 70% 100%, 30% 100%, 0 90%, 0 10%);
 }
