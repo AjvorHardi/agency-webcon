@@ -6,6 +6,9 @@
     --mocha: #FCEADE;
     --transition: .4s ease;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -183,4 +186,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 #team .row {
     clip-path: polygon(30% 0%, 70% 0%, 100% 10%, 100% 90%, 70% 100%, 30% 100%, 0 90%, 0 10%);
+}
+
+/* about */
+
+#about {
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 100px 0 150px 0;
+}
+#about img {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#about .accordion > .card > .card-header {
+    background: var(--orange);
+}
+#about .card {
+    border: 1px solid black;;
+}
+.btn-link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+.btn-link::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0a4";
+    padding: 10px;
 }
