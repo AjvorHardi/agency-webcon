@@ -221,6 +221,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 }
 
+/* projects */
 #projects {
     padding-top: 50px;
 }
@@ -261,6 +262,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--grayish);
 }
 
+/* people */
 #people img {
     border-radius: 50%;
     width: 80%;
@@ -284,7 +286,22 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--grayish);
 }
 
+/* skills */
+#skills {
+    margin-top: 100px;
+    background-image: linear-gradient(rgba(255, 138, 91,.7), rgba(255, 138, 91,.7)), url(img/progress.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 100px 0 100px 0;
+}
+.progress-bar {
+    background-color: black;
+}
 
+
+/* pricing */
 #pricing .card{
     border-radius: 0;
 }
@@ -327,4 +344,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #pricing .action {
     background: var(--orange);
+}
+
+/* footer */
+footer {
+    background: black;
+    color: white;
+}
+footer i, footer h2 {
+    color: var(--orange);
+    margin: 0 5px 5px 0;
 }
