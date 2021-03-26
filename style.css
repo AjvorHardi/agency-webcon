@@ -283,3 +283,48 @@ h1, h2, h3, h4, h5, h6 {
 #people i:hover {
     color: var(--grayish);
 }
+
+
+#pricing .card{
+    border-radius: 0;
+}
+#pricing .card-title {
+    padding: 25px 0;
+    margin: 0;
+}
+.priceNum {
+    position: relative;
+    background: var(--mocha);
+}
+.money {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 1.3rem;
+}
+.dollars {
+    font-size: 5rem;
+}
+.cents {
+    font-size: 1.2rem;
+}
+#pricing .list-group li:first-child {
+    padding-top: 10px;
+}
+#pricing .list-group .list-group-item{
+    font-size: 1rem;
+}
+.list-group {
+    border-radius: 0;
+}
+#pricing .btn {
+    background: var(--orange);
+    border-radius: 0;
+}
+#pricing .btn:hover {
+    background: var(--grayish);
+    color: white;
+}
+#pricing .action {
+    background: var(--orange);
+}
